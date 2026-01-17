@@ -1,4 +1,4 @@
-FROM httpd:alpine3.23
+FROM httpd:alpine
 RUN apk update && apk upgrade && \
     rm -rf /var/cache/apk/*
 ARG domain
